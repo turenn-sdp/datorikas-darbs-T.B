@@ -1,0 +1,26 @@
+body {
+    background-color: #4f6f52;
+    text-align: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.centered {
+    position: relative;
+    top: 50px;
+    margin: 0 auto;
+    width: fit-content;
+    font-size: 32px;
+}
+
+.bilde {
+    margin-top: 120px;
+    width: 250px;
+    height: 250px;
+}
+
+.teksts1 {   
+    font-size: 18px;
+    color: #ffffff;
+    margin-left: auto;
+    max-width: 500px;
+}
