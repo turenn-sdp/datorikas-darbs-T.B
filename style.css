@@ -26,6 +26,8 @@ body{
     margin: 0 10px; 
     display: inline-block;
     text-align: center;
+    background-color: white;
+    color: black;
 }
 .gs {
     text-align: center;
@@ -34,8 +36,35 @@ body{
     margin: center;
 }
 .info-section {
-    font-size: 22px;
+    font-size: 19px;
     text-align: center;
-    margin: 100px;
     width: 50%;
+ margin-top: 50px;   
+ margin: auto;
+}
+.gs2 {
+    text-align: center;
+}
+.bildeatbalsts {
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    margin-right: 200px;
+}
+.nvideo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 265px;
+    
+}
+.nelt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 19px;
+}
+.video {
+    margin-top: 265px;
 }
