@@ -21,14 +21,6 @@ body{
     justify-content: center;
     align-items: center;
 }
-
-.left, .right {
-    margin: 0 10px; 
-    display: inline-block;
-    text-align: center;
-    background-color: white;
-    color: black;
-}
 .gs {
     text-align: center;
 }
