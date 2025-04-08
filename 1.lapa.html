@@ -1,50 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Garīgā Slimība</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Garīgā slimība</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
-    <div class="main">
-        <div class="container"></div>
-        <button type="button" onclick="window.location.href='1.lapa.html'">1.lapa</button>
-        <button type="button" onclick="window.location.href='2.lapa.html'">2.lapa</button>
+  <div class="container">
+      <div class="square1">
+        <div class="navigation-buttons">
+          <a href="1.lapa.html" class="navigation-btn active">1. lapa</a>
+          <a href="2.lapa.html" class="navigation-btn">2. lapa</a>
         </div>
-
-        <div class="gs">    
-            <h1>Garīgā slimība</h1>
-
-            <div class="image-container">
-                <img src="psihie1.jpg" alt="Description of image" style="width: 520px; float: left; margin-right: 20px;" />
-            </div>
-            </div>
-            <div class="text-container">
-                <p style="overflow: hidden; font-size: 22px;"></p>
-                    Garīga rakstura traucējumi ir psihiska saslimšana vai garīgās attīstības traucējumi, kas ierobežo cilvēka spējas strādāt un aprūpēt sevi, kā arī apgrūtina iekļaušanos sabiedrībā.Personām ar intelektuālās attīstības traucējumiem ir mācīšanās grūtības, un viņi attīstās lēnāk nekā pārējie cilvēki. Šis stāvoklis parasti tiek konstatēts piedzimstot vai agrā bērnībā. Reizēm tas radies smadzeņu bojājumu rezultātā, pēc pārciestām slimībām vai traumām.
-                </p>
-            </div>
-            
-            <div class="video-container">
-                <div class="video">
-                    <iframe width="800px" height="450px" src="https://www.youtube.com/embed/nKCXL77Duxk?si=-k2BdIqfgl7qqNRx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
-                
-                <p style="text-align: center; margin-top: 20px; font-size: 22px;"></p>
-                    Liepājas Universitāte un Līvupes attīstības centrs sadarbībā ar "Skola 2030" ir izstrādājuši īpašus mācību materiālus bērniem ar smagiem garīgās attīstības traucējumiem. Šie materiāli palīdz uzlabot izglītības procesu, piedāvājot skaidrākas un vienotākas vadlīnijas. Projekts tiek ieviests pakāpeniski, lai pārbaudītu un uzlabotu jaunā kompetenču pieejas modeļa stiprās un vājās puses speciālajā izglītībā.
-                </p>
-            </div>
-            
-            <div class="info-section">
-                <h2>Galvenie punkti par garīgās slimības:</h2>
-                <ul style="font-size: 20px;"></ul>
-                    <li>Cilvēkiem ir jāpārliecina, ka veselības, pētniecības, sociālās un zaļā kursa programmas atbilst viņu vajadzībām: tas nozīmē, ka visas iestādes un cilvēki, kas ir atbildīgi par piegādi reģionālā un vietējā līmenī, ir iesaistīti izstrādē, kā arī īstenošanā, ka galalietotāji tiek uzklausīti un tiek izmantoti labākie pieejamie pierādījumi.</li>
-                    <li>Cilvēkiem jābūt pārliecinātiem, ka tādi līdzekļi kā Next Generation EU, Just Transition, HorizonEurope un Invest EU tiks tērēti kopīgām labklājības prioritātēm: tas nozīmē nodrošināt maksimālu pārredzamību, piekļuvi un atbildību par Eiropas pusgada ekonomisko, sociālo un vides pasākumu pārvaldību.</li>
-                    <li>Cilvēkiem ir vajadzīga skaidra Eiropas sociālo tiesību pīlāra pasākumu īstenošana un rīcība, lai virzītu uz priekšu labklājības ekonomikas principus. Abi ir labi ierosināti, taču pastāv risks, ka pašreizējā COVID-19 krīzē tie tiks ignorēti.</li>
-                    <li>Cilvēkiem ir jābūt pārliecinātiem, ka ES ir guvusi pandēmijas patieso mācību un palīdzēs ikvienu godīgi un atklāti sagatavot gaidāmajiem izaicinājumiem. Mēs visi joprojām saskaramies ar klimata ārkārtas situāciju un digitālo pāreju, kā arī izmaiņām “darba pasaulē”. Mums joprojām ir jārisina neinfekcijas slimību hroniskā krīze.</li>
-                </ul>
-            </div>
-        
-</body>
+        <h1 class="title">Garīgā slimība</h1>
+        <div class="content-wrapper">
+          <img src="psihie1.jpg" alt="Psihie" class="content-image" style="width: 520px; float: left;">
+          <div class="content-text">
+            Garīga rakstura traucējumi ir psihiska saslimšana vai garīgās attīstības traucējumi, kas ierobežo cilvēka spējas strādāt un aprūpēt sevi, kā arī apgrūtina iekļaušanos sabiedrībā. Personām ar intelektuālās attīstības traucējumiem ir mācīšanās grūtības, un viņi attīstās lēnāk nekā pārējie cilvēki. Šis stāvoklis parasti tiek konstatēts piedzimstot vai agrā bērnībā. Reizēm tas radies smadzeņu bojājumu rezultātā, pēc pārciestām slimībām vai traumām.<br><br>
+            Garīga rakstura traucējumu izpausmes un smaguma pakāpe var būt ļoti dažāda no viegliem mācīšanās traucējumiem līdz nopietniem attīstības traucējumiem, kas būtiski ietekmē cilvēka dzīvi. Daudziem cilvēkiem ar šiem traucējumiem ir nepieciešama ilgstoša medicīniska, psiholoģiska un sociāla palīdzība. Ir svarīgi uzsvērt, ka ar atbilstošu atbalstu un terapiju cilvēki ar garīga rakstura traucējumiem var veiksmīgi integrēties sabiedrībā.
+          </div>
+        </div>
+      </div>
+      <div class="square2">
+        <div class="video-container">
+          <iframe src="https://www.youtube.com/embed/nKCXL77Duxk?si=-k2BdIqfgl7qqNRx" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+          </iframe>
+        </div>
+        <div class="video-text">
+          Liepājas Universitāte un Līvupes attīstības centrs sadarbībā ar "Skola 2030" ir izstrādājuši īpašus mācību materiālus bērniem ar smagiem garīgās attīstības traucējumiem. Šie materiāli palīdz uzlabot izglītības procesu, piedāvājot skaidrākas un vienotākas vadlīnijas. Projekts tiek ieviests pakāpeniski, lai pārbaudītu un uzlabotu jaunā kompetenču pieejas modeļa stiprās un vājās puses speciālajā izglītībā.
+        </div>
+      </div>
+      <div class="square3">
+      
+      </div>
+      <div class="square4">
+        <div class="bottom-text">
+          <h2>EK runā "Stāvoklis Eiropas Savienībā" un Parlamenta plenārsēdē, kam seko Eiropadomes augstākā līmeņa sanāksme, EuroHealthNet aicina piemērot integrētu pieeju kopumu:</h2>
+          <ul>
+            <li>Cilvēkiem ir jāpārliecina, ka veselības, pētniecības, sociālās un zaļā kursa programmas atbilst viņu vajadzībām: tas nozīmē, ka visas iestādes un cilvēki, kas ir atbildīgi par piegādi reģionālā un vietējā līmenī, ir iesaistīti izstrādē, kā arī īstenošanā, ka galalietotāji tiek uzklausīti un tiek izmantoti labākie pieejamie pierādījumi.</li>
+            <li>Cilvēkiem jābūt pārliecinātiem, ka tādi līdzekļi kā Next Generation EU, Just Transition, HorizonEurope un Invest EU tiks tērēti kopīgām labklājības prioritātēm: tas nozīmē nodrošināt maksimālu pārredzamību, piekļuvi un atbildību par Eiropas pusgada ekonomisko, sociālo un vides pasākumu pārvaldību.</li>
+            <li>Cilvēkiem ir vajadzīga skaidra Eiropas sociālo tiesību pīlāra pasākumu īstenošana un rīcība, lai virzītu uz priekšu labklājības ekonomikas principus. Abi ir labi ierosināti, taču pastāv risks, ka pašreizējā COVID-19 krīzē tie tiks ignorēti.</li>
+            <li>Cilvēkiem ir jābūt pārliecinātiem, ka ES ir guvusi pandēmijas patieso mācību un palīdzēs ikvienu godīgi un atklāti sagatavot gaidāmajiem izaicinājumiem. Mēs visi joprojām saskaramies ar klimata ārkārtas situāciju un digitālo pāreju, kā arī izmaiņām "darba pasaulē". Mums joprojām ir jārisina neinfekcijas slimību hroniskā krīze.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
