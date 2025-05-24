@@ -1,0 +1,76 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aptauja</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <div class="square69">
+      <div class="navigation-buttons">
+        <a href="1.lapa.html" class="navigation-btn">1. lapa</a>
+        <a href="2.lapa.html" class="navigation-btn">2. lapa</a>
+        <a href="3.lapa.html" class="navigation-btn">Aptauja</a>
+      </div>
+
+      <h3>Aptauja: Garīgā veselība jauniešu vidū</h3>
+      <form id="surveyForm">
+        <div class="question">
+          <p>1. Cik bieži tu jūties stresa ietekmēts?</p>
+          <div class="answers">
+            <label><input type="radio" name="q1" value="Bieži"> Bieži</label>
+            <label><input type="radio" name="q1" value="Dažreiz"> Dažreiz</label>
+            <label><input type="radio" name="q1" value="Reti"> Reti</label>
+            <label><input type="radio" name="q1" value="Nekad"> Nekad</label>
+          </div>
+        </div>
+
+        <div class="question">
+          <p>2. Vai tu zini, kur vērsties, ja jūties nomākts?</p>
+          <div class="answers">
+            <label><input type="radio" name="q2" value="Jā"> Jā</label>
+            <label><input type="radio" name="q2" value="Mazliet"> Mazliet</label>
+            <label><input type="radio" name="q2" value="Nezinu"> Nezinu</label>
+            <label><input type="radio" name="q2" value="Nav vajadzīas"> Nav vajadzīas</label>
+          </div>
+        </div>
+
+        <div class="question">
+          <p>3. Cik svarīgi tev ir garīgā veselība?</p>
+          <div class="answers">
+            <label><input type="radio" name="q3" value="Ļoti svarīgi"> Ļoti svarīgi</label>
+            <label><input type="radio" name="q3" value="Vidēji"> Vidēji</label>
+            <label><input type="radio" name="q3" value="Mazsvarīgi"> Mazsvarīgi</label>
+            <label><input type="radio" name="q3" value="Neiedomājos"> Neiedomājos</label>
+          </div>
+        </div>
+
+        <div class="question">
+          <p>4. Vai tu jūties brīvi runāt par savu garīgo veselību?</p>
+          <div class="answers">
+            <label><input type="radio" name="q4" value="Pilnīgi jā"> Pilnīgi jā</label>
+            <label><input type="radio" name="q4" value="Dažreiz"> Dažreiz</label>
+            <label><input type="radio" name="q4" value="Neērti"> Neērti</label>
+            <label><input type="radio" name="q4" value="Nekad"> Nekad</label>
+          </div>
+        </div>
+
+        <div class="question">
+          <p>5. Vai tu esi izmantojis psihologa vai skolas atbalstu?</p>
+          <div class="answers">
+            <label><input type="radio" name="q5" value="Jā, regulāri"> Jā, regulāri</label>
+            <label><input type="radio" name="q5" value="Pāris reizes"> Pāris reizes</label>
+            <label><input type="radio" name="q5" value="Reizi"> Reizi</label>
+            <label><input type="radio" name="q5" value="Nekad"> Nekad</label>
+          </div>
+        </div>
+
+        <button type="button" onclick="submitSurvey()">Iesniegt</button>
+      </form>
+      <div id="result"></div>
+    </div>
+  </div>
+</body>
+</html>
